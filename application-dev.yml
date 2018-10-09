@@ -9,9 +9,9 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 spring:
   redis:
-    host: 127.0.0.1
+    host: 193.112.100.103
     port: 6379
-    password:
+    password: abc123
   rabbitmq:
     host: 127.0.0.1
     port: 5672
