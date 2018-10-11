@@ -34,9 +34,9 @@ ribbon:
     enabled: true
     clients: pig-auth,pig-upms-service
   Httpclient:
-    enabled: false
-  OkHttp:
     enabled: true
+  OkHttp:
+    enabled: false
   ReadTimeout: 10000
   ConnectTimeout: 10000
 
@@ -44,9 +44,9 @@ feign:
   hystrix:
     enabled: true
   okhttp:
-    enabled: true
-  httpclient:
     enabled: false
+  httpclient:
+    enabled: true
   client:
     config:
       feignName:
