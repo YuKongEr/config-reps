@@ -13,6 +13,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: abc123
+    max-idle: 10
+    min-idle: 5
+    test-on-borrow: false
+    time-between-eviction-runs-millis: 18800
+    test-while-idle: true
+    validation-query: SELECT 1
   redis:
     host: 193.112.100.103
     port: 6379
