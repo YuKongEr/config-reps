@@ -24,8 +24,8 @@ spring:
   redis:
     host: 193.112.100.103
     port: 6379
-    password: abc123
-    timeout: 5000
+    password: x19961010
+    timeout: 10000
   rabbitmq:
     host: 127.0.0.1
     port: 5672
