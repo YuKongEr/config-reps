@@ -41,7 +41,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: pig-auth,pig-upms-service
+    clients: panda-auth,panda-user-service
   Httpclient:
     enabled: true
   OkHttp:
