@@ -25,7 +25,7 @@ spring:
     host: 193.112.100.103
     port: 6379
     password: x19961010
-    timeout: 10000
+
   rabbitmq:
     host: 127.0.0.1
     port: 5672

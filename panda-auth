@@ -1,0 +1,4 @@
+ignore:
+  urls:
+    - /**/*.css
+    - /auth/**
