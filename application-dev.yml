@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://193.112.100.103:8761/eureka/
 
 server:
   tomcat:
@@ -27,7 +27,7 @@ spring:
     password: x19961010
     timeout: 10000
   rabbitmq:
-    host: 127.0.0.1
+    host: 193.112.100.103
     port: 5672
     username: guest
     password: guest
