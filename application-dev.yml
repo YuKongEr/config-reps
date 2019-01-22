@@ -29,8 +29,8 @@ spring:
   rabbitmq:
     host: 193.112.100.103
     port: 5672
-    username: guest
-    password: guest
+    username: yukong
+    password: x19961010
   http:
     multipart:
       max-file-size: 1000MB
