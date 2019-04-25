@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://193.112.100.103:8761/eureka/
 
 server:
   tomcat:
@@ -9,10 +9,10 @@ server:
     min-spare-threads: 50 # Minimum amount of worker threads
 spring:
   datasource:
-    url: jdbc:mysql://193.112.100.103:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
+    url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=UTF8&useSSL=false&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: abc123
+    password: root
     max-idle: 10
     min-idle: 5
     test-on-borrow: false
@@ -22,7 +22,7 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 193.112.100.103
+    host: 127.0.0.103
     port: 6379
     password: x19961010
 
