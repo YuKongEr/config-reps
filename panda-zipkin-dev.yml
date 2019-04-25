@@ -1,0 +1,17 @@
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: 
+      port: 5672
+      username: 
+      password: 
+      virtual-host: /
+      queue: zipkin
+
+
+#关闭验证
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

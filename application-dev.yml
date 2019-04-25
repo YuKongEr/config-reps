@@ -78,3 +78,9 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
+#关闭验证
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

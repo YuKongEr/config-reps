@@ -1,4 +1,20 @@
+# sleuth配置
+spring:
+  zipkin:
+    rabbitmq:
+      queue: zipkin
+  sleuth:
+    sampler:
+      percentage: 1
+
 ignore:
   urls:
-    - /**/*.css
-    - /auth/**
+  - /token/**
+  - /mobile/**
+  - /**/*.css
+  - /auth/**
+  - /refresh/**
+  - /swagger-ui.html
+  - /swagger-resources/**
+  - /*/v2/api-docs
+  - /webjars/**
