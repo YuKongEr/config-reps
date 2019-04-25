@@ -35,6 +35,8 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
+  zipkin: 
+    base-url: http://localhost:5001
 redis:
   cache:
     expiration: 3601
@@ -78,3 +80,13 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 60000
+
+#关闭验证
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
+
+
+ 
