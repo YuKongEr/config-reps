@@ -1,4 +1,4 @@
-zipkin:
+zipkin:   
   collector:
     rabbitmq:
       addresses: 
@@ -7,7 +7,9 @@ zipkin:
       password: 
       virtual-host: /
       queue: zipkin
-
+  storage:
+    type: mysql
+    StorageComponent: mysql
 
 #关闭验证
 management:
