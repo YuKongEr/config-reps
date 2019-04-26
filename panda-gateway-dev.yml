@@ -17,6 +17,7 @@ ignore:
   - /*/v2/api-docs
   - /webjars/**
   - /doc.html
+  - /zipkin/**
 
 swagger:
   client:
