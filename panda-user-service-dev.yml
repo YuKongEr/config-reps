@@ -5,7 +5,7 @@ spring:
       queue: zipkin
   sleuth:
     sampler:
-      percentage: 0.2
+      percentage: 1
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
