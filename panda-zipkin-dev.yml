@@ -2,7 +2,7 @@ zipkin:
   collector:
     rabbitmq:
       addresses: 192.168.124.23
-      port: 15672
+      port:  5672
       username: george
       password:  george123
       virtual-host: /
