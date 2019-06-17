@@ -6,7 +6,11 @@ spring:
   sleuth:
     sampler:
       percentage: 1
-
+datasource:
+  username: root
+  password: root
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.1.137:3306/cloud?useUnicode=true&useSSL=false&characterEncoding=utf8
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
   #实体扫描，多个package用逗号或者分号分隔
