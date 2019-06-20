@@ -1,6 +1,6 @@
 server:
   tomcat:
-    max-threads: 200  # Maximum amount of worker threads.
+    max-threads: 2000  # Maximum amount of worker threads.
     min-spare-threads:  50  # Minimum amount of worker threads
 spring:
   datasource:
