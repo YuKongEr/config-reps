@@ -19,7 +19,7 @@ spring:
   redis:
     host: 192.168.124.23
     port: 6379
-    password: george
+    password:
     timeout: 10000
     lettuce:
       pool:
