@@ -1,0 +1,6 @@
+  # DataSource Config
+  datasource:
+    username: root
+    password: swe123
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&useSSL=false&characterEncoding=utf8
