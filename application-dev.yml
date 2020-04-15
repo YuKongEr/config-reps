@@ -28,10 +28,10 @@ spring:
         max-active: 30
         max-wait: 10000
   rabbitmq:
-    host: 127.0.0.1
+    host: 10.18.17.36
     port: 5672
-    username: yukong
-    password: x19961010
+    username: admin
+    password: admin
   http:
     multipart:
       max-file-size: 1000MB
