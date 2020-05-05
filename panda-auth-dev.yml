@@ -10,8 +10,7 @@ spring:
 ignore:
   urls:
   - /dict/**
-  - /token/**
-  - /mobile/**
+  - /token/** 
   - /**/*.css
   - /auth/**
   - /refresh/**
