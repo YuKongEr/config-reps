@@ -8,6 +8,7 @@ spring:
 
 ignore:
   urls:
+  - /admin/readcard/**
   - /admin/user/mobile/**
   - /admin/dict/listDict
   - /**/*.css
